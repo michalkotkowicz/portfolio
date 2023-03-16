@@ -9,3 +9,5 @@ To remember:
 1. zastap linki w nawigacji
 2. zrob porzadne logo
 3. dobry background gradient na square1
+4. zastap linki w main na main stronie
+5. zastap zdjecia
