@@ -9,6 +9,8 @@ DESKTOP 901-1920px
 
 /*IMPORTS*/
 
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap');
+
 /*GENERALS*/
 *{
     box-sizing: border-box;
@@ -20,10 +22,13 @@ body{
     color: white;
     max-width: 1920px;
     margin: auto;
+    font-family: 'Cabin', sans-serif;
+
 }
 
 h2{
     text-align: center;
+    font-size: 2.5rem;
 }
 
 /*HEADER*/
@@ -92,11 +97,13 @@ nav{
 .square01{
     grid-column: 2/22;
     grid-row: 5/8;
+    font-weight: bold;
 }
 
 .square02{
     grid-column: 2/19;
     grid-row: 9/12;
+    font-weight: bold;
 }
 
 .square{
@@ -572,25 +579,78 @@ nav{
 
 /*MAIN HERE*/
 
+/*MOBILE VERSION HERE*/
+
 main{
-    color: white;
+    width: 90%;
+    margin: auto;
 }
+
+main section{
+    margin-top: 2rem;
+}
+
+main section div{
+    margin-top: 1rem;
+}
+
+h4{
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+/*aboutme section*/
 
 .aboutme-info{
     display: flex;
     flex-direction: row;
 }
 
+.aboutme-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.aboutme-card a{
+    color: white;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: 3px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 3px 3px silver;
+    margin-top: 1rem;
+    padding: 0.7rem;
+}
+
 .aboutme-info div img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+/*projects section*/
+
+.projects div p{
+    text-align: center;
 }
 
 .projects-preview{
     display: flex;
+    margin-top: 0;
+    gap: 10px;
 }
 
 .projects div div img{
     width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 
 /*FOOTER HERE*/
