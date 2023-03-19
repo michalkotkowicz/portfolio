@@ -25,8 +25,8 @@ header{
     background-position: bottom;
     background-repeat: no-repeat;
     display: grid;
-    grid-template-columns: repeat(20, 1fr);
-    grid-template-rows: repeat(20,1fr);
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(30,1fr);
 }
 
 .navbar{
@@ -61,7 +61,33 @@ header{
     color: white;
 }
 
+.square1{
+    background-color:rgba(217, 255, 0, 0.444);
+    grid-column: 15/20;
+    grid-row: 14/18;
+    border-radius: 10px;
 
+}
+
+.square2{
+    background-color: rgba(24, 104, 128, 0.616);
+    grid-column: 21/24;
+    grid-row: 13/16;
+    border-radius: 10px;
+}
+
+.square3{
+    background-color: black;
+    grid-column: 1/9;
+    grid-row: 13/14;
+}
+
+@media(min-width:500px){
+    .square1{
+        grid-column: 22/25;
+        grid-row: 18/20
+    }
+}
 
 /*MAIN HERE*/
 
