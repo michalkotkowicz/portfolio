@@ -2,8 +2,8 @@
 My first approach to make a portofilo site
 
 COMMENTS:
-1. czemu w navbar mi tego nie centeruje
-2. jak zrobic te linie w headerze by sie nie przestawiala
+1. dobry box shadow dla navbar
+2. czemu background color w navbar nie jest inherited z generals xd
 
 To remember:
 1. zastap linki w nawigacji
