@@ -49,10 +49,12 @@ header{
 .navbar{
     position: fixed;
     top: 0px;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     box-shadow: 0px 5px white;
+    max-width: 1920px;
     width: 100%;
     background-color: black;
     height: 5%;
@@ -89,7 +91,7 @@ nav{
 
 .squareinfo{
     background-color: black;
-	-webkit-transform: skew(340deg);
+	transform: skew(340deg);
     border-radius: 10px;
     box-shadow: 6px 6px white;
     font-size: 1.5rem;
