@@ -893,3 +893,40 @@ footer p{
     background-image: none;
     height: auto;
 }
+
+.main-pr{
+    padding-top: 100px;
+    width: 90%;
+    margin: auto;
+}
+
+.projects-pr{
+    display: flex;
+    flex-direction: column;
+}
+
+.projectcard-pr{
+    margin: 2rem 0 2rem 0;;
+}
+
+.projectphoto-pr img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.link-pr{
+    display: flex;
+    justify-content: center;
+}
+
+.button-pr{
+    color: white;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: 3px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 3px 3px silver;
+    margin-top: 1rem;
+    padding: 0.7rem;
+}
