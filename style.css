@@ -847,6 +847,8 @@ footer p{
     padding: 0.5rem 0 0.5rem 0;
 }
 
+/*TABLET VERSION HERE*/
+
 @media(min-width:480px){
 
     .picture-am{
@@ -856,6 +858,8 @@ footer p{
     }
 
 }
+
+/*DESKTOP VERSION HERE*/
 
 @media (min-width:900px){
 
@@ -881,3 +885,11 @@ footer p{
     }
 }
 
+/*!!!PROJECTS PAGE HERE!!!*/
+
+/*MOBILE VERSION HERE*/
+
+.header-pr{
+    background-image: none;
+    height: auto;
+}
