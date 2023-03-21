@@ -5,6 +5,8 @@ breakpoints
 MOBILE 320-480px
 TABLETS 481-900px
 DESKTOP 901-1920px
+(additional to make pictures look 
+better at 1440px)
 */
 
 /*IMPORTS*/
@@ -19,6 +21,7 @@ DESKTOP 901-1920px
 
 body{
     background-color: black;
+    background-image: linear-gradient(150deg, rgba(41, 41, 41, 1) 24%, rgba(0, 0, 0, 1) 57%, rgba(41, 41, 41, 1) 82%);
     color: white;
     max-width: 1920px;
     margin: auto;
@@ -57,6 +60,7 @@ header{
     max-width: 1920px;
     width: 100%;
     background-color: black;
+    background-image: linear-gradient(150deg, rgba(41, 41, 41, 1) 24%, rgba(0, 0, 0, 1) 57%, rgba(41, 41, 41, 1) 82%);
     height: 5%;
     display: flex;
     flex-direction: row;
@@ -89,9 +93,21 @@ nav{
     display: flex;
 }
 
+.socials{
+    display: none;
+    color: white;
+}
+
+.socials i{
+    color: white;
+    padding-right: 2rem;
+    font-size: 2rem;
+}
+
 .squareinfo{
     background-color: black;
-	transform: skew(340deg);
+    background-image: linear-gradient(150deg, rgba(0, 0, 0, 1) 0%, rgba(39, 39, 39, 1) 52%, rgba(0, 0, 0, 1) 97%);
+    transform: skew(340deg);
     border-radius: 10px;
     box-shadow: 6px 6px white;
     font-size: 1.5rem;
@@ -273,6 +289,14 @@ nav{
 
 @media  (min-width:480px) {
 
+    h4{
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 1.2rem;
+    }
+
     header{
         height: 60vh;
         background-image: url(../PHOTOS/backgroundmobile2.png);
@@ -286,6 +310,12 @@ nav{
 
     .navbar ul{
         margin-right: 2rem;
+    }
+
+    .socials{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
     
     .square01{
@@ -570,6 +600,11 @@ nav{
         height: 8%;
     }
 
+    .navbar nav li a{
+        font-size: 1.8rem;
+        margin: 0 1.5rem 0 1.5rem;
+    }
+
     .square01{
         grid-column: 14/27;
         grid-row: 9/12;
@@ -583,7 +618,7 @@ nav{
 }
 
 
-/*MAIN HERE*/
+/*INDEX HERE*/
 
 /*MOBILE VERSION HERE*/
 
@@ -721,6 +756,24 @@ h4{
 
 @media (min-width:1100px){
 
+    h4{
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 1.5rem;
+    }
+
+    .aboutme-card{
+        width: 60%;
+        padding: 2rem;
+    }
+
+    .projects-preview{
+        width: 90%;
+        margin: auto;
+    }
+
     .contact-photo{
         width: 60%;
     }
@@ -737,7 +790,7 @@ h4{
 /*FOOTER HERE*/
 
 footer{
-    padding-top: 1rem;
+    padding-top: 3rem;
 }
 
 footer ul{
@@ -751,11 +804,80 @@ footer ul li a{
     text-decoration: none;
     color: white;
     padding: 0 1rem 0 1rem;
+    font-size: 2rem;
 }
 
 footer p{
     color: white;
     font-size: 0.7rem;
     text-align: center;
+}
+
+
+/*!!!ABOUT ME PAGE!!!*/
+
+/*MOBILE VERSION HERE*/
+
+.header-am{
+    background-image: none;
+    height: auto;
+}
+
+.main-am{
+    padding-top: 60px;
+    width: 85%;
+
+}
+
+.h2-am{
+    padding-bottom: 2rem;
+}
+
+.picture-am img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.main-am h4{
+    padding: 1rem 0 1rem 0;
+}
+
+.main-am p{
+    text-align: justify;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+@media(min-width:480px){
+
+    .picture-am{
+        width: 50%;
+        float: left;
+        padding: 1.5rem;
+    }
+
+}
+
+@media (min-width:900px){
+
+    .main-am{
+        padding-top: 130px;
+    }
+
+    .maininfo-am{
+        display: flex;
+    }
+
+    .picture-am{
+        width:50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .maintext-am{
+        width: 70%;
+        padding: 2rem;
+    }
 }
 
