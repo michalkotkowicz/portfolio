@@ -930,3 +930,34 @@ footer p{
     margin-top: 1rem;
     padding: 0.7rem;
 }
+
+/*TABLET VERSION THE SAME AS MOBILE*/
+
+/*DESKTOP VERSION HERE*/
+
+@media (min-width:900px){
+
+    .main-pr{
+        padding-top: 170px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projects-pr{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .projectcard-pr{
+        width:32%;
+        padding: 1rem;
+        border: 3px solid black;
+        border-radius: 10px;
+        background-color: silver;
+    }
+
+}
