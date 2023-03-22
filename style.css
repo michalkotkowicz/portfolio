@@ -299,7 +299,6 @@ nav{
 
     header{
         height: 60vh;
-        background-image: url(../PHOTOS/backgroundmobile2.png);
         background-position: top right;
         grid-template-columns: repeat(35, 1fr);
     }
@@ -591,7 +590,6 @@ nav{
 
     header{
         height: 80vh;
-        background-image: url(../PHOTOS/backgroundmobile2.png);
         background-position: center right;
         grid-template-columns: repeat(60, 1fr);
     }
