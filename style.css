@@ -941,7 +941,7 @@ footer p{
 @media (min-width:900px){
 
     .main-pr{
-        padding-top: 170px;
+        padding-top: 130px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -977,6 +977,8 @@ footer p{
 
 .main-ct{
     padding-top: 120px;
+    width: 90%;
+    margin: auto;
 }
 
 .h2-ct{
@@ -1060,13 +1062,12 @@ form button{
 
     .contactinfo-ct{
         display: flex;
-        gap: 30px;
+        gap: 50px;
     }
 
     .photo-ct{
         display: flex;
         align-items: center;
     }
-
 
 }
