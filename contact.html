@@ -99,13 +99,28 @@
             </div>
             <div>
               <label for="phone">Phone Number:</label>
-              <input id="phone" name="phone" type="tel" />
+              <input
+                id="phone"
+                name="phone"
+                minlength="7"
+                maxlength="20"
+                placeholder="ex. +49 1234 567890"
+                required
+                type="tel"
+              />
             </div>
             <div>
-              <label for=""
+              <label for="comment"
                 >Additional Information: <span>*non-required</span></label
               >
-              <textarea name="" id="" cols="30" rows="10"></textarea>
+              <textarea
+                name="comment"
+                id="comment"
+                maxlength="200"
+                placeholder="Put your information here"
+                cols="30"
+                rows="6"
+              ></textarea>
             </div>
             <button type="submit">Send</button>
           </form>

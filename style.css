@@ -92,6 +92,9 @@ header{
 nav{
     display: flex;
 }
+nav, nav ul{
+    width: 100%
+    }
 
 /*
 .socials{
