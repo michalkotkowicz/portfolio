@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Michael Kotkowicz" />
+    <meta
+      name="description"
+      content="Personal portfolio website my Michael Kotkowicz"
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, WebDevelopment, Portfolio"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>CONTACT | Michael Kotkowicz | PORTOFOLIO</title>
+  </head>
+  <body>
+    <header class="header-ct">
+      <div class="navbar">
+        <div class="logo">
+          <img src="./PHOTOS/logo.png" alt="Logo of MKot - WebDev Expert" />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Main</a></li>
+            <li><a href="./aboutme.html">About Me</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="socials">
+          <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+    </header>
+    <main class="main-ct">
+      <h2 class="h2-ct">Wanna get in touch? DM me</h2>
+      <div class="contactinfo-ct">
+        <div class="photo-ct">
+          <img
+            src="https://tworcastron.pl/wp-content/uploads/2016/09/piksel.jpg"
+            alt="pic1"
+          />
+        </div>
+        <div>
+          <h4 class="h4-ct">Reach out to me through Social Media:</h4>
+          <div class="socialslinks-ct">
+            <a href=""
+              ><i class="fa-brands fa-square-facebook"></i> Find Me On
+              FACEBOOK</a
+            >
+            <a href=""
+              ><i class="fa-brands fa-instagram"></i> Find Me On INSTAGRAM</a
+            >
+            <a href=""
+              ><i class="fa-brands fa-linkedin"></i> Find Me on LINKEDIN</a
+            >
+          </div>
+        </div>
+        <div>
+          <h4 class="h4-ct">
+            Or leave me your contact information so I can reach you:
+          </h4>
+          <form action="#">
+            <div>
+              <label for="fullname">Full Name:</label>
+              <input
+                id="fullname"
+                name="fullname"
+                minlength="5"
+                maxlength="30"
+                placeholder="John Smith"
+                required
+                type="text"
+              />
+            </div>
+            <div>
+              <label for="email">E-Mail Adress:</label>
+              <input
+                id="email"
+                name="email"
+                minlength="5"
+                maxlength="40"
+                placeholder="jsmith@example.com"
+                required
+                type="email"
+              />
+            </div>
+            <div>
+              <label for="phone">Phone Number:</label>
+              <input id="phone" name="phone" type="tel" />
+            </div>
+            <div>
+              <label for=""
+                >Additional Information: <span>*non-required</span></label
+              >
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <ul>
+        <li>
+          <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </li>
+      </ul>
+      <hr />
+      <p>
+        Site made for educational purposes as a training for Web Development
+        classes at DCI
+      </p>
+      <p>2023 | Michael Kotkowicz</p>
+    </footer>
+  </body>
+</html>
