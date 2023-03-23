@@ -718,8 +718,11 @@ h4{
 
 .contact div img{
     width: 100%;
-    height: 40vh;
+    height: 30vh;
     border-radius: 10px;
+    object-fit: cover;
+    object-position: bottom;
+
 }
 
 .contact p{
@@ -757,7 +760,7 @@ h4{
 
 /*DESKTOP VERSION HERE*/
 
-@media (min-width:1100px){
+@media (min-width:900px){
 
     h4{
         font-size: 2rem;
@@ -775,12 +778,21 @@ h4{
     .contact-photo{
         width: 60%;
     }
+
+    .contact div img{
+        height: 55vh;
+    }
 }
 
 @media (min-width:1440px){
     
     .contact-photo{
-        width: 50%;
+        width: 60%;
+    }
+
+    .contact div img{
+        height: 45vh;
+        object-position: center;
     }
 }
 
