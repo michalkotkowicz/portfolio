@@ -47,6 +47,7 @@ header{
     display: grid;
     grid-template-columns: repeat(30, 1fr);
     grid-template-rows: repeat(30,1fr);
+    padding-top: 35px;
 }
 
 .navbar{
