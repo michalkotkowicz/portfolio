@@ -61,7 +61,7 @@ header{
     width: 100%;
     background-color: black;
     background-image: linear-gradient(150deg, rgba(41, 41, 41, 1) 24%, rgba(0, 0, 0, 1) 57%, rgba(41, 41, 41, 1) 82%);
-    height: 5%;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -70,12 +70,11 @@ header{
 
  .navbar .logo img{
     width: 100%;
-    height: 100%;
-    object-fit: contain;
+    display: block;
 }
 
 .navbar .logo{
-    max-width:200px;
+    max-width:150px;
 }
 
 .navbar ul{
@@ -308,10 +307,6 @@ nav{
         height: 60vh;
         background-position: top right;
         grid-template-columns: repeat(35, 1fr);
-    }
-
-    .navbar{
-        height: 6%;
     }
 
     .navbar ul{
@@ -599,10 +594,6 @@ nav{
         height: 80vh;
         background-position: center right;
         grid-template-columns: repeat(60, 1fr);
-    }
-
-    .navbar{
-        height: 8%;
     }
 
     .navbar nav li a{
