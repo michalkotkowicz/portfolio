@@ -68,8 +68,14 @@ header{
     z-index: 2;
 }
 
-.navbar .logo img{
+ .navbar .logo img{
+    width: 100%;
     height: 100%;
+    object-fit: contain;
+}
+
+.navbar .logo{
+    max-width:200px;
 }
 
 .navbar ul{
