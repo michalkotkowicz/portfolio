@@ -1098,14 +1098,25 @@ form button{
 
 @media (min-width:900px){
 
+    .main-ct{
+        padding-top: 160px;
+    }
+
     .contactinfo-ct{
         display: flex;
         gap: 50px;
     }
 
     .photo-ct{
+        width: 50%;
         display: flex;
         align-items: center;
+    }
+
+    .contactcontent-ct{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
 }
