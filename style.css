@@ -829,6 +829,7 @@ footer p{
 .header-am{
     background-image: none;
     height: auto;
+    padding-top: 0;
 }
 
 .main-am{
@@ -900,6 +901,7 @@ footer p{
 .header-pr{
     background-image: none;
     height: auto;
+    padding-top: 0;
 }
 
 .main-pr{
@@ -1021,6 +1023,7 @@ footer p{
 .header-ct{
     background-image: none;
     height: auto;
+    padding-top: 0;
 }
 
 .main-ct{
